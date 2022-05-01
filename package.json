@@ -1,0 +1,19 @@
+{
+  "name": "tbot",
+  "version": "1.0.0",
+  "main": "bot.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "BOT_TOKEN=5354735739:AAG0nttdbkMdvZ7XayYzn9AX1q6hAsbt94k ts-node bot.ts"
+  },
+  "dependencies": {
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "ts-node": "^10.7.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.6.3"
+  }
+}
